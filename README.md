@@ -13,7 +13,6 @@ Bot Python untuk login, mengambil pasar sepak bola, memilih rekomendasi, mencata
 - `bot/recommendation.json`: hasil scan, bukan source.
 - `Dockerfile` dan `run_loop.sh`: instalasi dan loop Docker.
 - `doctor.py`: pemeriksaan dependensi, browser, konfigurasi, dan data.
-- `docs/audit/`: catatan audit dan rencana historis, bukan petunjuk operasional.
 
 ## Instalasi baru dengan Docker
 
@@ -96,4 +95,4 @@ Jangan bagikan `.env`, variannya, `*.session*`, seluruh `bot/data/`, `bot/recomm
 
 Kredensial pernah muncul di source/dokumentasi. `endpoints.md` sudah disensor, tetapi rotasi password dan token/API key lama tetap wajib; penyensoran file tidak menghapus salinan atau riwayat Git terdahulu. Log lama juga perlu diperlakukan sebagai data privat.
 
-Catatan audit historis ada di `docs/audit/` (`DATA_NEEDS.md`, `RENCANA.md`, `P3-verifikasi.md`). `endpoints.md` merupakan referensi hasil observasi lama; domain dan endpoint perlu diverifikasi sebelum dipakai. Setup dan perintah aktif dijelaskan di README ini.
+`endpoints.md` merupakan referensi hasil observasi lama; domain dan endpoint perlu diverifikasi sebelum dipakai. Setup dan perintah aktif dijelaskan di README ini.
