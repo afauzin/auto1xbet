@@ -1,0 +1,3 @@
+playwright==1.62.0
+# stdlib only lainnya: urllib, json, csv, random, statistics, ssl
+# playwright butuh chromium: py -m playwright install chromium
